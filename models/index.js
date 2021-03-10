@@ -25,8 +25,8 @@ User.init(sequelize);
 Post.init(sequelize);
 Hashtag.init(sequelize);
 
-User.assciate(db);
-Post.assciate(db);
-Hashtag.assciate(db);
+User.associate(db);
+Post.associate(db);
+Hashtag.associate(db);
 
 module.exports = db;
